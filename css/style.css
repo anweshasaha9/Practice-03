@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Plus Jakarta Sans';
+  box-sizing: border-box;
+}
+
+#section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+}
+
+#left {
+  flex: 1;
+  padding-right: 45px;
+}
+
+#left h6 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 35.28px;
+  text-align: left;
+  margin: 0;
+}
+
+#left h6 span {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35.28px;
+  text-align: left;
+}
+
+#left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color:#676767;
+  margin: 0;
+  padding-top: 26px;
+}
+
+#right {
+  flex: 1;
+  padding-left: 45px;
+}
+
+#right img {
+  width: 380px;
+  height: 327px;
+}
+
+#a-section {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-top: 26px;
+}
+
+
+.link {
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #0CBBC7;
+  font-size: 14px;
+  font-weight: 700;
+  background: #0CBBC7;
+  color: #ffff;
+}
+
+#first {
+  margin-right: 10px;
+}
+
+#second {
+  background: #ffff;
+  color: #0CBBC7;
+  border: 1px solid #0CBBC7;
+}
+
+/* Add your additional CSS styles here */
